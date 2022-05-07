@@ -1,0 +1,16 @@
+{
+    "name": "GameplayDelivery",
+    "rootNamespace": "",
+    "references": [
+        "GUID:c4ea6eafb59964f6a9ecceb134d7c695"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Host",
+    "rootNamespace": "",
+    "references": [
+        "GUID:560b04d1a97f54a4e82edc0cbbb69285",
+        "GUID:c4ea6eafb59964f6a9ecceb134d7c695",
+        "GUID:ef37032f80ee6422084f677cb7552af3",
+        "GUID:a3e0d845e1cb043a8a52a600e692e31c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

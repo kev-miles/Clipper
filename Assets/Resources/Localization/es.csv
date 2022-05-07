@@ -1,0 +1,49 @@
+﻿"key","es"
+
+"tid_press_start","Presiona Start"
+"tid_accept","Aceptar"
+"tid_back","Regresar"
+"tid_apply", "Aplicar"
+"tid_cancel", "Cancelar"
+"tid_confirm","¿Confirmar acción?"
+"tid_play","Jugar"
+"tid_select_slot","Elige un espacio"
+"tid_new_game","Nueva Partida"
+"tid_continue","Continuar"
+"tid_delete_save","Borrar"
+"tid_empty_save_slot","Disponible"
+
+"tid_options","Opciones"
+"tid_autosave_frq","Frecuencia del Autosalvado"
+"tid_autosave_1","Cada Día"
+"tid_autosave_2","Cada Semana"
+"tid_autosave_3","Cada Mes"
+"tid_autosave_4","Nunca"
+"tid_language","Idioma"
+"tid_english","Ingles"
+"tid_spanish","Español"
+"tid_sfx_volume","Volúmen de Efectos"
+"tid_music_volume","Volúmen de la Música"
+"tid_save_slot", "Slot de Guardado"
+"tid_slot_1", "Slot 1"
+"tid_slot_2", "Slot 2"
+"tid_slot_3", "Slot 3"
+"tid_credits","Créditos"
+
+"tid_gd_credits","Diseño y Programación"
+"tid_art_credits","Arte e Interfaz"
+"tid_audio_credits","Musica y Sonido"
+
+"tid_exit_game","Salir"
+
+"tid_now_playing","Reproduciendo"
+"tid_name", "Nombre"
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                 

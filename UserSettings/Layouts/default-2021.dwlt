@@ -1,0 +1,2530 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PixelRect:
+    serializedVersion: 2
+    x: 127
+    y: 67
+    width: 1206
+    height: 715
+  m_ShowMode: 4
+  m_Title: Game
+  m_RootView: {fileID: 6}
+  m_MinSize: {x: 875, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_Maximized: 0
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 9}
+  - {fileID: 3}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 1206
+    height: 665
+  m_MinSize: {x: 300, y: 200}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 0
+  controlID: 92
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: InspectorWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 921
+    y: 0
+    width: 285
+    height: 665
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  - {fileID: 13}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 228
+    height: 394
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectBrowser
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 394
+    width: 921
+    height: 271
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
+  - {fileID: 19}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 7}
+  - {fileID: 2}
+  - {fileID: 8}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1206
+    height: 715
+  m_MinSize: {x: 875, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_UseTopView: 1
+  m_TopViewHeight: 30
+  m_UseBottomView: 1
+  m_BottomViewHeight: 20
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1206
+    height: 30
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+  m_LastLoadedLayoutName: 
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 695
+    width: 1206
+    height: 20
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 10}
+  - {fileID: 5}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 921
+    height: 665
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+  controlID: 93
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 4}
+  - {fileID: 11}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 921
+    height: 394
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 94
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 228
+    y: 0
+    width: 693
+    height: 394
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+  - {fileID: 18}
+  - {fileID: 12}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animator
+    m_Image: {fileID: 1711060831702674872, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 355
+    y: 97
+    width: 691
+    height: 373
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_ViewTransforms:
+    m_KeySerializationHelper:
+    - {fileID: 7762298075192937938, guid: 5bf455fa905e2654dae6dd18f8903402, type: 2}
+    - {fileID: 1095810421731079520, guid: 5adf13b5736ff4a1f9b6b2bb72344d90, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 9100000, guid: 5adf13b5736ff4a1f9b6b2bb72344d90, type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: 1095810421731079520, guid: 5adf13b5736ff4a1f9b6b2bb72344d90, type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentEditor: 0
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1048
+    y: 97
+    width: 284
+    height: 644
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_Spl:
+    ID: 607
+    splitterInitialOffset: 0
+    currentActiveSplitter: -1
+    realSizes:
+    - 430.5
+    - 143.5
+    relativeSizes:
+    - 0.75
+    - 0.25
+    minSizes:
+    - 32
+    - 32
+    maxSizes:
+    - 0
+    - 0
+    lastTotalSize: 574
+    splitSize: 6
+    xOffset: 0
+    m_Version: 1
+    oldRealSizes: 
+    oldMinSizes: 
+    oldMaxSizes: 
+    oldSplitSize: 0
+  m_TestTypeToolbarIndex: 1
+  m_PlayModeTestListGUI:
+    m_Window: {fileID: 0}
+    m_NewResultList: []
+    m_ResultText: 
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories: []
+    m_SelectedOption: 0
+  m_EditModeTestListGUI:
+    m_Window: {fileID: 13}
+    m_NewResultList:
+    - id: 1000
+      uniqueId: '[Sono][suite]'
+      name: Sono
+      fullName: Sono
+      resultStatus: 1
+      duration: 1.5689358
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1075
+      uniqueId: '[Assembly-CSharp-Editor.dll][suite]'
+      name: Assembly-CSharp-Editor.dll
+      fullName: /Users/kevin/Development/projects/UnityAlchemy/Sono/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+      resultStatus: 1
+      duration: 1.5390244
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Sono][suite]'
+    - id: 1076
+      uniqueId: Assembly-CSharp-Editor.dll/[Editor][suite]
+      name: Editor
+      fullName: Editor
+      resultStatus: 1
+      duration: 1.5383857
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1075
+      parentUniqueId: '[Assembly-CSharp-Editor.dll][suite]'
+    - id: 1077
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/[Tests][suite]
+      name: Tests
+      fullName: Editor.Tests
+      resultStatus: 1
+      duration: 1.5346946
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1076
+      parentUniqueId: Assembly-CSharp-Editor.dll/[Editor][suite]
+    - id: 1080
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery][suite]
+      name: HostDelivery
+      fullName: Editor.Tests.HostDelivery
+      resultStatus: 1
+      duration: 1.3244393
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1077
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/[Tests][suite]
+    - id: 1047
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.CreditsPresenterShould][suite]
+      name: CreditsPresenterShould
+      fullName: Editor.Tests.HostDelivery.CreditsPresenterShould
+      resultStatus: 1
+      duration: 0.1043088
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1080
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery][suite]
+    - id: 1048
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/CreditsPresenterShould/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.CreditsPresenterShould.CloseViewOnBackPressed]
+      name: CloseViewOnBackPressed
+      fullName: Editor.Tests.HostDelivery.CreditsPresenterShould.CloseViewOnBackPressed
+      resultStatus: 1
+      duration: 0.0901789
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1047
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.CreditsPresenterShould][suite]
+    - id: 1050
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/CreditsPresenterShould/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.CreditsPresenterShould.TranslateTextsOnLanguageChangedEvent]
+      name: TranslateTextsOnLanguageChangedEvent
+      fullName: Editor.Tests.HostDelivery.CreditsPresenterShould.TranslateTextsOnLanguageChangedEvent
+      resultStatus: 1
+      duration: 0.0036262
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1047
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.CreditsPresenterShould][suite]
+    - id: 1049
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/CreditsPresenterShould/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.CreditsPresenterShould.TranslateTextsOnPressStartEvent]
+      name: TranslateTextsOnPressStartEvent
+      fullName: Editor.Tests.HostDelivery.CreditsPresenterShould.TranslateTextsOnPressStartEvent
+      resultStatus: 1
+      duration: 0.000741
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1047
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.CreditsPresenterShould][suite]
+    - id: 1051
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.JukeboxPresenterShould][suite]
+      name: JukeboxPresenterShould
+      fullName: Editor.Tests.HostDelivery.JukeboxPresenterShould
+      resultStatus: 1
+      duration: 1.1703613
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1080
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery][suite]
+    - id: 1055
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/JukeboxPresenterShould/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.JukeboxPresenterShould.LocalizeTextsOnLanguageChanged]
+      name: LocalizeTextsOnLanguageChanged
+      fullName: Editor.Tests.HostDelivery.JukeboxPresenterShould.LocalizeTextsOnLanguageChanged
+      resultStatus: 1
+      duration: 1.1479554
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1051
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.JukeboxPresenterShould][suite]
+    - id: 1054
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/JukeboxPresenterShould/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.JukeboxPresenterShould.LocalizeTextsOnStart]
+      name: LocalizeTextsOnStart
+      fullName: Editor.Tests.HostDelivery.JukeboxPresenterShould.LocalizeTextsOnStart
+      resultStatus: 1
+      duration: 0.0008346
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1051
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.JukeboxPresenterShould][suite]
+    - id: 1057
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/JukeboxPresenterShould/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.JukeboxPresenterShould.PlayIntroSongOnInitializationCompleted]
+      name: PlayIntroSongOnInitializationCompleted
+      fullName: Editor.Tests.HostDelivery.JukeboxPresenterShould.PlayIntroSongOnInitializationCompleted
+      resultStatus: 1
+      duration: 0.000774
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1051
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.JukeboxPresenterShould][suite]
+    - id: 1053
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/JukeboxPresenterShould/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.JukeboxPresenterShould.PlayTrackWhenStarButtonIsPressed]
+      name: PlayTrackWhenStarButtonIsPressed
+      fullName: Editor.Tests.HostDelivery.JukeboxPresenterShould.PlayTrackWhenStarButtonIsPressed
+      resultStatus: 1
+      duration: 0.0025137
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1051
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.JukeboxPresenterShould][suite]
+    - id: 1052
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/JukeboxPresenterShould/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.JukeboxPresenterShould.SetInitialVolumesAtStart]
+      name: SetInitialVolumesAtStart
+      fullName: Editor.Tests.HostDelivery.JukeboxPresenterShould.SetInitialVolumesAtStart
+      resultStatus: 1
+      duration: 0.0005343
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1051
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.JukeboxPresenterShould][suite]
+    - id: 1056
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/JukeboxPresenterShould/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.JukeboxPresenterShould.UpdateAudioSourceSettingsWhenGameSettingsAreChanged]
+      name: UpdateAudioSourceSettingsWhenGameSettingsAreChanged
+      fullName: Editor.Tests.HostDelivery.JukeboxPresenterShould.UpdateAudioSourceSettingsWhenGameSettingsAreChanged
+      resultStatus: 1
+      duration: 0.0007039
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1051
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.JukeboxPresenterShould][suite]
+    - id: 1058
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.MainMenuPresenterShould][suite]
+      name: MainMenuPresenterShould
+      fullName: Editor.Tests.HostDelivery.MainMenuPresenterShould
+      resultStatus: 1
+      duration: 0.012861
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1080
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery][suite]
+    - id: 1059
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/MainMenuPresenterShould/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.MainMenuPresenterShould.EnableInputOnMenuPresented]
+      name: EnableInputOnMenuPresented
+      fullName: Editor.Tests.HostDelivery.MainMenuPresenterShould.EnableInputOnMenuPresented
+      resultStatus: 1
+      duration: 0.00349
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1058
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.MainMenuPresenterShould][suite]
+    - id: 1060
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/MainMenuPresenterShould/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.MainMenuPresenterShould.TranslateMenuOnInitializationDone]
+      name: TranslateMenuOnInitializationDone
+      fullName: Editor.Tests.HostDelivery.MainMenuPresenterShould.TranslateMenuOnInitializationDone
+      resultStatus: 1
+      duration: 0.0005038
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1058
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.MainMenuPresenterShould][suite]
+    - id: 1061
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/MainMenuPresenterShould/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.MainMenuPresenterShould.TranslateMenuOnLanguageSettingsUpdated]
+      name: TranslateMenuOnLanguageSettingsUpdated
+      fullName: Editor.Tests.HostDelivery.MainMenuPresenterShould.TranslateMenuOnLanguageSettingsUpdated
+      resultStatus: 1
+      duration: 0.0004233
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1058
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.MainMenuPresenterShould][suite]
+    - id: 1062
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.PressStartPresenterShould][suite]
+      name: PressStartPresenterShould
+      fullName: Editor.Tests.HostDelivery.PressStartPresenterShould
+      resultStatus: 1
+      duration: 0.0097297
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1080
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery][suite]
+    - id: 1065
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/PressStartPresenterShould/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.PressStartPresenterShould.EnableInputOnIntroComplete]
+      name: EnableInputOnIntroComplete
+      fullName: Editor.Tests.HostDelivery.PressStartPresenterShould.EnableInputOnIntroComplete
+      resultStatus: 1
+      duration: 0.0025468
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1062
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.PressStartPresenterShould][suite]
+    - id: 1064
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/PressStartPresenterShould/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.PressStartPresenterShould.PresentScreen]
+      name: PresentScreen
+      fullName: Editor.Tests.HostDelivery.PressStartPresenterShould.PresentScreen
+      resultStatus: 1
+      duration: 0.000785
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1062
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.PressStartPresenterShould][suite]
+    - id: 1066
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/PressStartPresenterShould/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.PressStartPresenterShould.SendPressStartEventOnButtonPressed]
+      name: SendPressStartEventOnButtonPressed
+      fullName: Editor.Tests.HostDelivery.PressStartPresenterShould.SendPressStartEventOnButtonPressed
+      resultStatus: 1
+      duration: 0.0010714
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1062
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.PressStartPresenterShould][suite]
+    - id: 1063
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/PressStartPresenterShould/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.PressStartPresenterShould.TranslateScreenAtStartUp]
+      name: TranslateScreenAtStartUp
+      fullName: Editor.Tests.HostDelivery.PressStartPresenterShould.TranslateScreenAtStartUp
+      resultStatus: 1
+      duration: 0.0006973
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1062
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.PressStartPresenterShould][suite]
+    - id: 1067
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.SettingsPresenterShould][suite]
+      name: SettingsPresenterShould
+      fullName: Editor.Tests.HostDelivery.SettingsPresenterShould
+      resultStatus: 1
+      duration: 0.0224285
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1080
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery][suite]
+    - id: 1068
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/SettingsPresenterShould/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.SettingsPresenterShould.LoadSettingsValuesAtStartup]
+      name: LoadSettingsValuesAtStartup
+      fullName: Editor.Tests.HostDelivery.SettingsPresenterShould.LoadSettingsValuesAtStartup
+      resultStatus: 1
+      duration: 0.0098029
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1067
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.SettingsPresenterShould][suite]
+    - id: 1074
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/SettingsPresenterShould/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.SettingsPresenterShould.SendSettingsUpdatedEventOnBackPressed]
+      name: SendSettingsUpdatedEventOnBackPressed
+      fullName: Editor.Tests.HostDelivery.SettingsPresenterShould.SendSettingsUpdatedEventOnBackPressed
+      resultStatus: 1
+      duration: 0.0016413
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1067
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.SettingsPresenterShould][suite]
+    - id: 1069
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/SettingsPresenterShould/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.SettingsPresenterShould.UpdateApplicationLanguageOnLanguageSelectorUpdated]
+      name: UpdateApplicationLanguageOnLanguageSelectorUpdated
+      fullName: Editor.Tests.HostDelivery.SettingsPresenterShould.UpdateApplicationLanguageOnLanguageSelectorUpdated
+      resultStatus: 1
+      duration: 0.0015443
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1067
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.SettingsPresenterShould][suite]
+    - id: 1072
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/SettingsPresenterShould/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.SettingsPresenterShould.UpdateMusicVolumeOnMusicVolumeSliderUpdated]
+      name: UpdateMusicVolumeOnMusicVolumeSliderUpdated
+      fullName: Editor.Tests.HostDelivery.SettingsPresenterShould.UpdateMusicVolumeOnMusicVolumeSliderUpdated
+      resultStatus: 1
+      duration: 0.0011591
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1067
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.SettingsPresenterShould][suite]
+    - id: 1070
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/SettingsPresenterShould/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.SettingsPresenterShould.UpdateSaveSlotOnSaveSlotSelectorUpdated]
+      name: UpdateSaveSlotOnSaveSlotSelectorUpdated
+      fullName: Editor.Tests.HostDelivery.SettingsPresenterShould.UpdateSaveSlotOnSaveSlotSelectorUpdated
+      resultStatus: 1
+      duration: 0.0011386
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1067
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.SettingsPresenterShould][suite]
+    - id: 1073
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/SettingsPresenterShould/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.SettingsPresenterShould.UpdateSettingsViewTextsOnLanguageChangedEvent]
+      name: UpdateSettingsViewTextsOnLanguageChangedEvent
+      fullName: Editor.Tests.HostDelivery.SettingsPresenterShould.UpdateSettingsViewTextsOnLanguageChangedEvent
+      resultStatus: 1
+      duration: 0.0014161
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1067
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.SettingsPresenterShould][suite]
+    - id: 1071
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/SettingsPresenterShould/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.SettingsPresenterShould.UpdateSoundVolumeOnSoundVolumeSliderUpdated]
+      name: UpdateSoundVolumeOnSoundVolumeSliderUpdated
+      fullName: Editor.Tests.HostDelivery.SettingsPresenterShould.UpdateSoundVolumeOnSoundVolumeSliderUpdated
+      resultStatus: 1
+      duration: 0.0010981
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1067
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostDelivery/[Assembly-CSharp-Editor][Editor.Tests.HostDelivery.SettingsPresenterShould][suite]
+    - id: 1078
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/[Assembly-CSharp-Editor][Editor.Tests.HostServices][suite]
+      name: HostServices
+      fullName: Editor.Tests.HostServices
+      resultStatus: 1
+      duration: 0.2066287
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1077
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/[Tests][suite]
+    - id: 1001
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/[Assembly-CSharp-Editor][Editor.Tests.HostServices.AudioServiceShould][suite]
+      name: AudioServiceShould
+      fullName: Editor.Tests.HostServices.AudioServiceShould
+      resultStatus: 1
+      duration: 0.009988
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1078
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/[Assembly-CSharp-Editor][Editor.Tests.HostServices][suite]
+    - id: 1002
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/AudioServiceShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.AudioServiceShould.GetCurrentAudioSettingsWhenInitialized]
+      name: GetCurrentAudioSettingsWhenInitialized
+      fullName: Editor.Tests.HostServices.AudioServiceShould.GetCurrentAudioSettingsWhenInitialized
+      resultStatus: 1
+      duration: 0.0053492
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/[Assembly-CSharp-Editor][Editor.Tests.HostServices.AudioServiceShould][suite]
+    - id: 1004
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/AudioServiceShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.AudioServiceShould.SendEventAfterUpdatingMusicVolume]
+      name: SendEventAfterUpdatingMusicVolume
+      fullName: Editor.Tests.HostServices.AudioServiceShould.SendEventAfterUpdatingMusicVolume
+      resultStatus: 1
+      duration: 0.0003508
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/[Assembly-CSharp-Editor][Editor.Tests.HostServices.AudioServiceShould][suite]
+    - id: 1003
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/AudioServiceShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.AudioServiceShould.SendEventAfterUpdatingSoundVolume]
+      name: SendEventAfterUpdatingSoundVolume
+      fullName: Editor.Tests.HostServices.AudioServiceShould.SendEventAfterUpdatingSoundVolume
+      resultStatus: 1
+      duration: 0.0002121
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/[Assembly-CSharp-Editor][Editor.Tests.HostServices.AudioServiceShould][suite]
+    - id: 1005
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/[Assembly-CSharp-Editor][Editor.Tests.HostServices.NavigationServiceShould][suite]
+      name: NavigationServiceShould
+      fullName: Editor.Tests.HostServices.NavigationServiceShould
+      resultStatus: 1
+      duration: 0.0294915
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1078
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/[Assembly-CSharp-Editor][Editor.Tests.HostServices][suite]
+    - id: 1007
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/NavigationServiceShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.NavigationServiceShould.AddScreenToTheStackWhenANewViewOpens]
+      name: AddScreenToTheStackWhenANewViewOpens
+      fullName: Editor.Tests.HostServices.NavigationServiceShould.AddScreenToTheStackWhenANewViewOpens
+      resultStatus: 1
+      duration: 0.0036077
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1005
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/[Assembly-CSharp-Editor][Editor.Tests.HostServices.NavigationServiceShould][suite]
+    - id: 1009
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/NavigationServiceShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.NavigationServiceShould.DisableInputForPreviousScreen]
+      name: DisableInputForPreviousScreen
+      fullName: Editor.Tests.HostServices.NavigationServiceShould.DisableInputForPreviousScreen
+      resultStatus: 1
+      duration: 0.0037873
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1005
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/[Assembly-CSharp-Editor][Editor.Tests.HostServices.NavigationServiceShould][suite]
+    - id: 1008
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/NavigationServiceShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.NavigationServiceShould.EnableInputForNewScreen]
+      name: EnableInputForNewScreen
+      fullName: Editor.Tests.HostServices.NavigationServiceShould.EnableInputForNewScreen
+      resultStatus: 1
+      duration: 0.0002775
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1005
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/[Assembly-CSharp-Editor][Editor.Tests.HostServices.NavigationServiceShould][suite]
+    - id: 1010
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/NavigationServiceShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.NavigationServiceShould.EnableInputForPreviousScreenAfterClosingTheNewOne]
+      name: EnableInputForPreviousScreenAfterClosingTheNewOne
+      fullName: Editor.Tests.HostServices.NavigationServiceShould.EnableInputForPreviousScreenAfterClosingTheNewOne
+      resultStatus: 1
+      duration: 0.0004397
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1005
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/[Assembly-CSharp-Editor][Editor.Tests.HostServices.NavigationServiceShould][suite]
+    - id: 1006
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/NavigationServiceShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.NavigationServiceShould.ReturnNullIfNoScreenWasEverOpened]
+      name: ReturnNullIfNoScreenWasEverOpened
+      fullName: Editor.Tests.HostServices.NavigationServiceShould.ReturnNullIfNoScreenWasEverOpened
+      resultStatus: 1
+      duration: 0.0002886
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1005
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/[Assembly-CSharp-Editor][Editor.Tests.HostServices.NavigationServiceShould][suite]
+    - id: 1013
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/NavigationServiceShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.NavigationServiceShould.SendEventAfterExitingGameplayScene]
+      name: SendEventAfterExitingGameplayScene
+      fullName: Editor.Tests.HostServices.NavigationServiceShould.SendEventAfterExitingGameplayScene
+      resultStatus: 1
+      duration: 0.0016863
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1005
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/[Assembly-CSharp-Editor][Editor.Tests.HostServices.NavigationServiceShould][suite]
+    - id: 1012
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/NavigationServiceShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.NavigationServiceShould.SendEventAfterLoadingGameplayScene]
+      name: SendEventAfterLoadingGameplayScene
+      fullName: Editor.Tests.HostServices.NavigationServiceShould.SendEventAfterLoadingGameplayScene
+      resultStatus: 1
+      duration: 0.0007541
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1005
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/[Assembly-CSharp-Editor][Editor.Tests.HostServices.NavigationServiceShould][suite]
+    - id: 1011
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/NavigationServiceShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.NavigationServiceShould.SendEventAfterLoadingMenuScene]
+      name: SendEventAfterLoadingMenuScene
+      fullName: Editor.Tests.HostServices.NavigationServiceShould.SendEventAfterLoadingMenuScene
+      resultStatus: 1
+      duration: 0.0009274
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1005
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/[Assembly-CSharp-Editor][Editor.Tests.HostServices.NavigationServiceShould][suite]
+    - id: 1014
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/[Assembly-CSharp-Editor][Editor.Tests.HostServices.SaveLoadServiceShould][suite]
+      name: SaveLoadServiceShould
+      fullName: Editor.Tests.HostServices.SaveLoadServiceShould
+      resultStatus: 1
+      duration: 0.0252902
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1078
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/[Assembly-CSharp-Editor][Editor.Tests.HostServices][suite]
+    - id: 1020
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/SaveLoadServiceShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.SaveLoadServiceShould.ChangeAutosaveFrequency]
+      name: ChangeAutosaveFrequency
+      fullName: Editor.Tests.HostServices.SaveLoadServiceShould.ChangeAutosaveFrequency
+      resultStatus: 1
+      duration: 0.0064682
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1014
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/[Assembly-CSharp-Editor][Editor.Tests.HostServices.SaveLoadServiceShould][suite]
+    - id: 1018
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/SaveLoadServiceShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.SaveLoadServiceShould.GetAGivenSlotData]
+      name: GetAGivenSlotData
+      fullName: Editor.Tests.HostServices.SaveLoadServiceShould.GetAGivenSlotData
+      resultStatus: 1
+      duration: 0.0020205
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1014
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/[Assembly-CSharp-Editor][Editor.Tests.HostServices.SaveLoadServiceShould][suite]
+    - id: 1019
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/SaveLoadServiceShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.SaveLoadServiceShould.GetTheCurrentSlotData]
+      name: GetTheCurrentSlotData
+      fullName: Editor.Tests.HostServices.SaveLoadServiceShould.GetTheCurrentSlotData
+      resultStatus: 1
+      duration: 0.0015051
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1014
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/[Assembly-CSharp-Editor][Editor.Tests.HostServices.SaveLoadServiceShould][suite]
+    - id: 1017
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/SaveLoadServiceShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.SaveLoadServiceShould.ReturnIfSaveSlotIsUsed]
+      name: ReturnIfSaveSlotIsUsed
+      fullName: Editor.Tests.HostServices.SaveLoadServiceShould.ReturnIfSaveSlotIsUsed
+      resultStatus: 1
+      duration: 0.0015073
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1014
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/[Assembly-CSharp-Editor][Editor.Tests.HostServices.SaveLoadServiceShould][suite]
+    - id: 1016
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/SaveLoadServiceShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.SaveLoadServiceShould.ReturnIfTheCurrentSlotIsNewGame]
+      name: ReturnIfTheCurrentSlotIsNewGame
+      fullName: Editor.Tests.HostServices.SaveLoadServiceShould.ReturnIfTheCurrentSlotIsNewGame
+      resultStatus: 1
+      duration: 0.0014869
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1014
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/[Assembly-CSharp-Editor][Editor.Tests.HostServices.SaveLoadServiceShould][suite]
+    - id: 1022
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/SaveLoadServiceShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.SaveLoadServiceShould.SendEventAfterDeletingGame]
+      name: SendEventAfterDeletingGame
+      fullName: Editor.Tests.HostServices.SaveLoadServiceShould.SendEventAfterDeletingGame
+      resultStatus: 1
+      duration: 0.001977
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1014
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/[Assembly-CSharp-Editor][Editor.Tests.HostServices.SaveLoadServiceShould][suite]
+    - id: 1021
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/SaveLoadServiceShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.SaveLoadServiceShould.SendEventAfterSavingGame]
+      name: SendEventAfterSavingGame
+      fullName: Editor.Tests.HostServices.SaveLoadServiceShould.SendEventAfterSavingGame
+      resultStatus: 1
+      duration: 0.0018819
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1014
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/[Assembly-CSharp-Editor][Editor.Tests.HostServices.SaveLoadServiceShould][suite]
+    - id: 1015
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/SaveLoadServiceShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.SaveLoadServiceShould.SetAutoSaveFrequencyAtStartup]
+      name: SetAutoSaveFrequencyAtStartup
+      fullName: Editor.Tests.HostServices.SaveLoadServiceShould.SetAutoSaveFrequencyAtStartup
+      resultStatus: 1
+      duration: 0.0017306
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1014
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/[Assembly-CSharp-Editor][Editor.Tests.HostServices.SaveLoadServiceShould][suite]
+    - id: 1023
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/[Assembly-CSharp-Editor][Editor.Tests.HostServices.ServiceProviderShould][suite]
+      name: ServiceProviderShould
+      fullName: Editor.Tests.HostServices.ServiceProviderShould
+      resultStatus: 1
+      duration: 0.021708
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1078
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/[Assembly-CSharp-Editor][Editor.Tests.HostServices][suite]
+    - id: 1024
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/ServiceProviderShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.ServiceProviderShould.InitializeServices]
+      name: InitializeServices
+      fullName: Editor.Tests.HostServices.ServiceProviderShould.InitializeServices
+      resultStatus: 1
+      duration: 0.0022667
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1023
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/[Assembly-CSharp-Editor][Editor.Tests.HostServices.ServiceProviderShould][suite]
+    - id: 1025
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/ServiceProviderShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.ServiceProviderShould.NotifyWhenInitializationIsDone]
+      name: NotifyWhenInitializationIsDone
+      fullName: Editor.Tests.HostServices.ServiceProviderShould.NotifyWhenInitializationIsDone
+      resultStatus: 1
+      duration: 0.0046181
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1023
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/[Assembly-CSharp-Editor][Editor.Tests.HostServices.ServiceProviderShould][suite]
+    - id: 1026
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/[Assembly-CSharp-Editor][Editor.Tests.HostServices.SettingsServiceShould][suite]
+      name: SettingsServiceShould
+      fullName: Editor.Tests.HostServices.SettingsServiceShould
+      resultStatus: 1
+      duration: 0.0186681
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1078
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/[Assembly-CSharp-Editor][Editor.Tests.HostServices][suite]
+    - id: 1027
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/SettingsServiceShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.SettingsServiceShould.RetrieveSettings]
+      name: RetrieveSettings
+      fullName: Editor.Tests.HostServices.SettingsServiceShould.RetrieveSettings
+      resultStatus: 1
+      duration: 0.0077074
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/[Assembly-CSharp-Editor][Editor.Tests.HostServices.SettingsServiceShould][suite]
+    - id: 1028
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/SettingsServiceShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.SettingsServiceShould.UpdateSettingsOnSettingsChangedEvent]
+      name: UpdateSettingsOnSettingsChangedEvent
+      fullName: Editor.Tests.HostServices.SettingsServiceShould.UpdateSettingsOnSettingsChangedEvent
+      resultStatus: 1
+      duration: 0.0006223
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/[Assembly-CSharp-Editor][Editor.Tests.HostServices.SettingsServiceShould][suite]
+    - id: 1079
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation][suite]
+      name: Translation
+      fullName: Editor.Tests.HostServices.Translation
+      resultStatus: 1
+      duration: 0.0972694
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1078
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/[Assembly-CSharp-Editor][Editor.Tests.HostServices][suite]
+    - id: 1029
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.CsvLoaderShould][suite]
+      name: CsvLoaderShould
+      fullName: Editor.Tests.HostServices.Translation.CsvLoaderShould
+      resultStatus: 1
+      duration: 0.0334587
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1079
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation][suite]
+    - id: 1032
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/CsvLoaderShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.CsvLoaderShould.ReturnLocalizationKeysForRequiredLanguage][suite]
+      name: ReturnLocalizationKeysForRequiredLanguage
+      fullName: Editor.Tests.HostServices.Translation.CsvLoaderShould.ReturnLocalizationKeysForRequiredLanguage
+      resultStatus: 1
+      duration: 0.0294363
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1029
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.CsvLoaderShould][suite]
+    - id: 1030
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/CsvLoaderShould/ReturnLocalizationKeysForRequiredLanguage/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.CsvLoaderShould.ReturnLocalizationKeysForRequiredLanguage("en",System.String[])]
+      name: ReturnLocalizationKeysForRequiredLanguage("en",System.String[])
+      fullName: Editor.Tests.HostServices.Translation.CsvLoaderShould.ReturnLocalizationKeysForRequiredLanguage("en",System.String[])
+      resultStatus: 1
+      duration: 0.0010075
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1032
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/CsvLoaderShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.CsvLoaderShould.ReturnLocalizationKeysForRequiredLanguage][suite]
+    - id: 1031
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/CsvLoaderShould/ReturnLocalizationKeysForRequiredLanguage/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.CsvLoaderShould.ReturnLocalizationKeysForRequiredLanguage("en",System.String[])]2
+      name: ReturnLocalizationKeysForRequiredLanguage("en",System.String[])
+      fullName: Editor.Tests.HostServices.Translation.CsvLoaderShould.ReturnLocalizationKeysForRequiredLanguage("en",System.String[]
+        GeneratedTestCase2)
+      resultStatus: 1
+      duration: 0.0005558
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1032
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/CsvLoaderShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.CsvLoaderShould.ReturnLocalizationKeysForRequiredLanguage][suite]
+    - id: 1033
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.TranslatorServiceShould][suite]
+      name: TranslatorServiceShould
+      fullName: Editor.Tests.HostServices.Translation.TranslatorServiceShould
+      resultStatus: 1
+      duration: 0.044335
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1079
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation][suite]
+    - id: 1034
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/TranslatorServiceShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.TranslatorServiceShould.InitializeWithLanguageFromSettings]
+      name: InitializeWithLanguageFromSettings
+      fullName: Editor.Tests.HostServices.Translation.TranslatorServiceShould.InitializeWithLanguageFromSettings
+      resultStatus: 1
+      duration: 0.001458
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.TranslatorServiceShould][suite]
+    - id: 1046
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/TranslatorServiceShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.TranslatorServiceShould.NotFailIfLanguageKeyIndexIsOutOfBounds]
+      name: NotFailIfLanguageKeyIndexIsOutOfBounds
+      fullName: Editor.Tests.HostServices.Translation.TranslatorServiceShould.NotFailIfLanguageKeyIndexIsOutOfBounds
+      resultStatus: 1
+      duration: 0.0003214
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.TranslatorServiceShould][suite]
+    - id: 1036
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/TranslatorServiceShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.TranslatorServiceShould.NotSendEventIfLanguageIsTheSame]
+      name: NotSendEventIfLanguageIsTheSame
+      fullName: Editor.Tests.HostServices.Translation.TranslatorServiceShould.NotSendEventIfLanguageIsTheSame
+      resultStatus: 1
+      duration: 0.0010736
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.TranslatorServiceShould][suite]
+    - id: 1045
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/TranslatorServiceShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.TranslatorServiceShould.ReturnALanguageKeyForAGivenIndex]
+      name: ReturnALanguageKeyForAGivenIndex
+      fullName: Editor.Tests.HostServices.Translation.TranslatorServiceShould.ReturnALanguageKeyForAGivenIndex
+      resultStatus: 1
+      duration: 0.0002353
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.TranslatorServiceShould][suite]
+    - id: 1043
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/TranslatorServiceShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.TranslatorServiceShould.ReturnTheKeyIfTranslationIsNotAvailable]
+      name: ReturnTheKeyIfTranslationIsNotAvailable
+      fullName: Editor.Tests.HostServices.Translation.TranslatorServiceShould.ReturnTheKeyIfTranslationIsNotAvailable
+      resultStatus: 1
+      duration: 0.000858
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.TranslatorServiceShould][suite]
+    - id: 1042
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/TranslatorServiceShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.TranslatorServiceShould.ReturnTheTranslatedKeyIfAvailable][suite]
+      name: ReturnTheTranslatedKeyIfAvailable
+      fullName: Editor.Tests.HostServices.Translation.TranslatorServiceShould.ReturnTheTranslatedKeyIfAvailable
+      resultStatus: 1
+      duration: 0.0127764
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1033
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.TranslatorServiceShould][suite]
+    - id: 1037
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/TranslatorServiceShould/ReturnTheTranslatedKeyIfAvailable/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.TranslatorServiceShould.ReturnTheTranslatedKeyIfAvailable("tid_accept","Accept")]
+      name: ReturnTheTranslatedKeyIfAvailable("tid_accept","Accept")
+      fullName: Editor.Tests.HostServices.Translation.TranslatorServiceShould.ReturnTheTranslatedKeyIfAvailable("tid_accept","Accept")
+      resultStatus: 1
+      duration: 0.0012112
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1042
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/TranslatorServiceShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.TranslatorServiceShould.ReturnTheTranslatedKeyIfAvailable][suite]
+    - id: 1038
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/TranslatorServiceShould/ReturnTheTranslatedKeyIfAvailable/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.TranslatorServiceShould.ReturnTheTranslatedKeyIfAvailable("tid_cancel","Cancel")]
+      name: ReturnTheTranslatedKeyIfAvailable("tid_cancel","Cancel")
+      fullName: Editor.Tests.HostServices.Translation.TranslatorServiceShould.ReturnTheTranslatedKeyIfAvailable("tid_cancel","Cancel")
+      resultStatus: 1
+      duration: 0.0006775
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1042
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/TranslatorServiceShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.TranslatorServiceShould.ReturnTheTranslatedKeyIfAvailable][suite]
+    - id: 1039
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/TranslatorServiceShould/ReturnTheTranslatedKeyIfAvailable/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.TranslatorServiceShould.ReturnTheTranslatedKeyIfAvailable("tid_exit_game","Exit")]
+      name: ReturnTheTranslatedKeyIfAvailable("tid_exit_game","Exit")
+      fullName: Editor.Tests.HostServices.Translation.TranslatorServiceShould.ReturnTheTranslatedKeyIfAvailable("tid_exit_game","Exit")
+      resultStatus: 1
+      duration: 0.0006534
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1042
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/TranslatorServiceShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.TranslatorServiceShould.ReturnTheTranslatedKeyIfAvailable][suite]
+    - id: 1040
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/TranslatorServiceShould/ReturnTheTranslatedKeyIfAvailable/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.TranslatorServiceShould.ReturnTheTranslatedKeyIfAvailable("tid_press_start","Press
+        Start")]
+      name: ReturnTheTranslatedKeyIfAvailable("tid_press_start","Press Start")
+      fullName: Editor.Tests.HostServices.Translation.TranslatorServiceShould.ReturnTheTranslatedKeyIfAvailable("tid_press_start","Press
+        Start")
+      resultStatus: 1
+      duration: 0.0006578
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1042
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/TranslatorServiceShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.TranslatorServiceShould.ReturnTheTranslatedKeyIfAvailable][suite]
+    - id: 1041
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/TranslatorServiceShould/ReturnTheTranslatedKeyIfAvailable/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.TranslatorServiceShould.ReturnTheTranslatedKeyIfAvailable("tid_sfx_volume","Sound
+        Effects Volume")]
+      name: ReturnTheTranslatedKeyIfAvailable("tid_sfx_volume","Sound Effects Volume")
+      fullName: Editor.Tests.HostServices.Translation.TranslatorServiceShould.ReturnTheTranslatedKeyIfAvailable("tid_sfx_volume","Sound
+        Effects Volume")
+      resultStatus: 1
+      duration: 0.000671
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1042
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/TranslatorServiceShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.TranslatorServiceShould.ReturnTheTranslatedKeyIfAvailable][suite]
+    - id: 1035
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/TranslatorServiceShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.TranslatorServiceShould.SendEventOnLanguageChanged]
+      name: SendEventOnLanguageChanged
+      fullName: Editor.Tests.HostServices.Translation.TranslatorServiceShould.SendEventOnLanguageChanged
+      resultStatus: 1
+      duration: 0.0009878
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.TranslatorServiceShould][suite]
+    - id: 1044
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/TranslatorServiceShould/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.TranslatorServiceShould.TranslateAllTextsInAGivenArray]
+      name: TranslateAllTextsInAGivenArray
+      fullName: Editor.Tests.HostServices.Translation.TranslatorServiceShould.TranslateAllTextsInAGivenArray
+      resultStatus: 1
+      duration: 0.0009391
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.TranslatorServiceShould][suite]
+    m_ResultText: 
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 1fe1dc833fe2a987b7d6f7abdef040c311cb86d4c05062e6bd32cbee99d317ff3b4273ff2e5c021b5bce621e39a3be208cf0ac216ddafb243e7ca5364ab0373b2f7c5f41e7479b44cc73486076157171e9977c7cffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 127
+    y: 491
+    width: 920
+    height: 250
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_VersionControlStates: []
+    m_SoftLockControlStates: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SkipHidden: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Assets
+    m_Globs: []
+    m_OriginalText: 
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: /Users/kevin/Development/projects/Clipper
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 2e710000
+    m_LastClickedID: 28974
+    m_ExpandedIDs: 000000002e71000030710000327100003471000000ca9a3b
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 5}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 000000002e710000307100003271000034710000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 64
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 207
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1048
+    y: 97
+    width: 284
+    height: 644
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: 160
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewWindow: {fileID: 0}
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 127
+    y: 97
+    width: 227
+    height: 373
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 38710000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 2efbffff
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 4c969a2b90040154d917609493e03593
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 355
+    y: 97
+    width: 691
+    height: 373
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData:
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: -101, y: -26}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 3
+      id: Tool Settings
+      index: 0
+      layout: 1
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: -141, y: -224}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 3
+      id: unity-grid-and-snap-toolbar
+      index: 1
+      layout: 1
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-scene-view-toolbar
+      index: 0
+      layout: 1
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      id: unity-search-toolbar
+      index: 1
+      layout: 1
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Open Tile Palette
+      index: 2
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap Focus
+      index: 3
+      layout: 4
+    - dockPosition: 0
+      containerId: overlay-container--left
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-transform-toolbar
+      index: 0
+      layout: 2
+    - dockPosition: 0
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 67.5, y: 86}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Orientation
+      index: 0
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Light Settings
+      index: 0
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Camera
+      index: 1
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Constraints
+      index: 2
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Collisions
+      index: 3
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Navmesh Display
+      index: 4
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Agent Display
+      index: 5
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Obstacle Display
+      index: 6
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Occlusion Culling
+      index: 7
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Physics Debugger
+      index: 8
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Scene Visibility
+      index: 9
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Particles
+      index: 10
+      layout: 4
+  m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
+  m_Gizmos: 1
+  m_OverrideSceneCullingMask: 6917529027641081856
+  m_SceneIsLit: 1
+  m_SceneLighting: 1
+  m_2DMode: 1
+  m_isRotationLocked: 0
+  m_PlayAudio: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: 0, y: 0, z: 0}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0}
+  m_RenderMode: 0
+  m_CameraMode:
+    drawMode: 0
+    name: Shaded
+    section: Shading Mode
+  m_ValidateTrueMetals: 0
+  m_DoValidateTrueMetals: 0
+  m_ExposureSliderValue: 0
+  m_SceneViewState:
+    m_AlwaysRefresh: 0
+    showFog: 1
+    showSkybox: 1
+    showFlares: 1
+    showImageEffects: 1
+    showParticleSystems: 1
+    showVisualEffectGraphs: 1
+    m_FxEnabled: 1
+  m_Grid:
+    xGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0}
+    yGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    zGrid:
+      m_Fade:
+        m_Target: 1
+        speed: 2
+        m_Value: 1
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    m_ShowGrid: 1
+    m_GridAxis: 1
+    m_gridOpacity: 0.5
+  m_Rotation:
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
+  m_Size:
+    m_Target: 10
+    speed: 2
+    m_Value: 10
+  m_Ortho:
+    m_Target: 1
+    speed: 2
+    m_Value: 1
+  m_CameraSettings:
+    m_Speed: 1
+    m_SpeedNormalized: 0.5
+    m_SpeedMin: 0.001
+    m_SpeedMax: 2
+    m_EasingEnabled: 1
+    m_EasingDuration: 0.4
+    m_AccelerationEnabled: 1
+    m_FieldOfViewHorizontalOrVertical: 60
+    m_NearClip: 0.03
+    m_FarClip: 10000
+    m_DynamicClip: 1
+    m_OcclusionCulling: 0
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_SceneVisActive: 1
+  m_LastLockedObject: {fileID: 0}
+  m_ViewIsLockedToObject: 0
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 355
+    y: 97
+    width: 691
+    height: 373
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 626, y: 352}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_EnterPlayModeBehavior: 0
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 01000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -156.5
+    m_HBaseRangeMax: 156.5
+    m_VBaseRangeMin: -88
+    m_VBaseRangeMax: 88
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 0
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 691
+      height: 352
+    m_Scale: {x: 2, y: 2}
+    m_Translation: {x: 345.5, y: 176}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -172.75
+      y: -88
+      width: 345.5
+      height: 176
+    m_MinimalGUI: 1
+  m_defaultScale: 2
+  m_LastWindowPixelSize: {x: 1382, y: 746}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 127
+    y: 491
+    width: 920
+    height: 250
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
