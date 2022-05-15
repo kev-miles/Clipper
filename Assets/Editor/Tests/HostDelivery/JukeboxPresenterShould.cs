@@ -115,7 +115,7 @@ namespace Editor.Tests.HostDelivery
             var presenter = new JukeboxPresenter(_eventService, translator, view, _volumes);
 
             //When
-            _eventService.SendEvent(new InitializationDoneEvent());
+            presenter.Present();
             
             //Then
             view.Received(1).PlayIntroSong(Arg.Any<AudioClip>());

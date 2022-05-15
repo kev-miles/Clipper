@@ -32,7 +32,7 @@ namespace Host.Delivery.ScreenComponents.Jukebox
             _view = view;
             _eventService = eventService;
             _translator = translator;
-            _introAudioClip = Resources.Load<AudioClip>("Music/Intro");
+            _introAudioClip = Resources.LoadAll<AudioClip>("Music/Intro").FirstOrDefault();
             _gameplaySongs = BuildSongList(Resources.LoadAll<AudioClip>($"Music/Gameplay"));
             _view.OnStart += LocalizeNowPlaying;
             _view.OnUnload += Unload;

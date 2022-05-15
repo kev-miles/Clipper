@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1206
     height: 715
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Test Runner
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 92
+  controlID: 21
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -59,7 +59,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: TestRunnerWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -68,14 +68,14 @@ MonoBehaviour:
     y: 0
     width: 285
     height: 665
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 15}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 15}
   - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 93
+  controlID: 22
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 94
+  controlID: 23
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -294,7 +294,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Animator
-    m_Image: {fileID: 1711060831702674872, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
@@ -388,7 +388,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_Spl:
-    ID: 607
+    ID: 150
     splitterInitialOffset: 0
     currentActiveSplitter: -1
     realSizes:
@@ -455,7 +455,7 @@ MonoBehaviour:
       name: Sono
       fullName: Sono
       resultStatus: 1
-      duration: 1.5689358
+      duration: 2.0465753
       messages: 
       output: 
       stacktrace: 
@@ -471,7 +471,7 @@ MonoBehaviour:
       name: Assembly-CSharp-Editor.dll
       fullName: /Users/kevin/Development/projects/UnityAlchemy/Sono/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
       resultStatus: 1
-      duration: 1.5390244
+      duration: 2.019624
       messages: 
       output: 
       stacktrace: 
@@ -487,7 +487,7 @@ MonoBehaviour:
       name: Editor
       fullName: Editor
       resultStatus: 1
-      duration: 1.5383857
+      duration: 2.019051
       messages: 
       output: 
       stacktrace: 
@@ -503,7 +503,7 @@ MonoBehaviour:
       name: Tests
       fullName: Editor.Tests
       resultStatus: 1
-      duration: 1.5346946
+      duration: 2.0156598
       messages: 
       output: 
       stacktrace: 
@@ -519,7 +519,7 @@ MonoBehaviour:
       name: HostDelivery
       fullName: Editor.Tests.HostDelivery
       resultStatus: 1
-      duration: 1.3244393
+      duration: 1.65707
       messages: 
       output: 
       stacktrace: 
@@ -535,7 +535,7 @@ MonoBehaviour:
       name: CreditsPresenterShould
       fullName: Editor.Tests.HostDelivery.CreditsPresenterShould
       resultStatus: 1
-      duration: 0.1043088
+      duration: 0.1060467
       messages: 
       output: 
       stacktrace: 
@@ -551,7 +551,7 @@ MonoBehaviour:
       name: CloseViewOnBackPressed
       fullName: Editor.Tests.HostDelivery.CreditsPresenterShould.CloseViewOnBackPressed
       resultStatus: 1
-      duration: 0.0901789
+      duration: 0.0907506
       messages: 
       output: 
       stacktrace: 
@@ -568,7 +568,7 @@ MonoBehaviour:
       name: TranslateTextsOnLanguageChangedEvent
       fullName: Editor.Tests.HostDelivery.CreditsPresenterShould.TranslateTextsOnLanguageChangedEvent
       resultStatus: 1
-      duration: 0.0036262
+      duration: 0.006222
       messages: 
       output: 
       stacktrace: 
@@ -585,7 +585,7 @@ MonoBehaviour:
       name: TranslateTextsOnPressStartEvent
       fullName: Editor.Tests.HostDelivery.CreditsPresenterShould.TranslateTextsOnPressStartEvent
       resultStatus: 1
-      duration: 0.000741
+      duration: 0.0008337
       messages: 
       output: 
       stacktrace: 
@@ -602,7 +602,7 @@ MonoBehaviour:
       name: JukeboxPresenterShould
       fullName: Editor.Tests.HostDelivery.JukeboxPresenterShould
       resultStatus: 1
-      duration: 1.1703613
+      duration: 1.4888401
       messages: 
       output: 
       stacktrace: 
@@ -618,7 +618,7 @@ MonoBehaviour:
       name: LocalizeTextsOnLanguageChanged
       fullName: Editor.Tests.HostDelivery.JukeboxPresenterShould.LocalizeTextsOnLanguageChanged
       resultStatus: 1
-      duration: 1.1479554
+      duration: 1.4612969
       messages: 
       output: 
       stacktrace: 
@@ -635,7 +635,7 @@ MonoBehaviour:
       name: LocalizeTextsOnStart
       fullName: Editor.Tests.HostDelivery.JukeboxPresenterShould.LocalizeTextsOnStart
       resultStatus: 1
-      duration: 0.0008346
+      duration: 0.0016626
       messages: 
       output: 
       stacktrace: 
@@ -652,7 +652,7 @@ MonoBehaviour:
       name: PlayIntroSongOnInitializationCompleted
       fullName: Editor.Tests.HostDelivery.JukeboxPresenterShould.PlayIntroSongOnInitializationCompleted
       resultStatus: 1
-      duration: 0.000774
+      duration: 0.0012893
       messages: 
       output: 
       stacktrace: 
@@ -669,7 +669,7 @@ MonoBehaviour:
       name: PlayTrackWhenStarButtonIsPressed
       fullName: Editor.Tests.HostDelivery.JukeboxPresenterShould.PlayTrackWhenStarButtonIsPressed
       resultStatus: 1
-      duration: 0.0025137
+      duration: 0.0028395
       messages: 
       output: 
       stacktrace: 
@@ -686,7 +686,7 @@ MonoBehaviour:
       name: SetInitialVolumesAtStart
       fullName: Editor.Tests.HostDelivery.JukeboxPresenterShould.SetInitialVolumesAtStart
       resultStatus: 1
-      duration: 0.0005343
+      duration: 0.0005569
       messages: 
       output: 
       stacktrace: 
@@ -703,7 +703,7 @@ MonoBehaviour:
       name: UpdateAudioSourceSettingsWhenGameSettingsAreChanged
       fullName: Editor.Tests.HostDelivery.JukeboxPresenterShould.UpdateAudioSourceSettingsWhenGameSettingsAreChanged
       resultStatus: 1
-      duration: 0.0007039
+      duration: 0.0007522
       messages: 
       output: 
       stacktrace: 
@@ -720,7 +720,7 @@ MonoBehaviour:
       name: MainMenuPresenterShould
       fullName: Editor.Tests.HostDelivery.MainMenuPresenterShould
       resultStatus: 1
-      duration: 0.012861
+      duration: 0.0174754
       messages: 
       output: 
       stacktrace: 
@@ -736,7 +736,7 @@ MonoBehaviour:
       name: EnableInputOnMenuPresented
       fullName: Editor.Tests.HostDelivery.MainMenuPresenterShould.EnableInputOnMenuPresented
       resultStatus: 1
-      duration: 0.00349
+      duration: 0.0039849
       messages: 
       output: 
       stacktrace: 
@@ -753,7 +753,7 @@ MonoBehaviour:
       name: TranslateMenuOnInitializationDone
       fullName: Editor.Tests.HostDelivery.MainMenuPresenterShould.TranslateMenuOnInitializationDone
       resultStatus: 1
-      duration: 0.0005038
+      duration: 0.0012157
       messages: 
       output: 
       stacktrace: 
@@ -770,7 +770,7 @@ MonoBehaviour:
       name: TranslateMenuOnLanguageSettingsUpdated
       fullName: Editor.Tests.HostDelivery.MainMenuPresenterShould.TranslateMenuOnLanguageSettingsUpdated
       resultStatus: 1
-      duration: 0.0004233
+      duration: 0.0004487
       messages: 
       output: 
       stacktrace: 
@@ -787,7 +787,7 @@ MonoBehaviour:
       name: PressStartPresenterShould
       fullName: Editor.Tests.HostDelivery.PressStartPresenterShould
       resultStatus: 1
-      duration: 0.0097297
+      duration: 0.0147576
       messages: 
       output: 
       stacktrace: 
@@ -803,7 +803,7 @@ MonoBehaviour:
       name: EnableInputOnIntroComplete
       fullName: Editor.Tests.HostDelivery.PressStartPresenterShould.EnableInputOnIntroComplete
       resultStatus: 1
-      duration: 0.0025468
+      duration: 0.0028103
       messages: 
       output: 
       stacktrace: 
@@ -820,7 +820,7 @@ MonoBehaviour:
       name: PresentScreen
       fullName: Editor.Tests.HostDelivery.PressStartPresenterShould.PresentScreen
       resultStatus: 1
-      duration: 0.000785
+      duration: 0.0008376
       messages: 
       output: 
       stacktrace: 
@@ -837,7 +837,7 @@ MonoBehaviour:
       name: SendPressStartEventOnButtonPressed
       fullName: Editor.Tests.HostDelivery.PressStartPresenterShould.SendPressStartEventOnButtonPressed
       resultStatus: 1
-      duration: 0.0010714
+      duration: 0.0010978
       messages: 
       output: 
       stacktrace: 
@@ -854,7 +854,7 @@ MonoBehaviour:
       name: TranslateScreenAtStartUp
       fullName: Editor.Tests.HostDelivery.PressStartPresenterShould.TranslateScreenAtStartUp
       resultStatus: 1
-      duration: 0.0006973
+      duration: 0.0007528
       messages: 
       output: 
       stacktrace: 
@@ -871,7 +871,7 @@ MonoBehaviour:
       name: SettingsPresenterShould
       fullName: Editor.Tests.HostDelivery.SettingsPresenterShould
       resultStatus: 1
-      duration: 0.0224285
+      duration: 0.0252543
       messages: 
       output: 
       stacktrace: 
@@ -887,7 +887,7 @@ MonoBehaviour:
       name: LoadSettingsValuesAtStartup
       fullName: Editor.Tests.HostDelivery.SettingsPresenterShould.LoadSettingsValuesAtStartup
       resultStatus: 1
-      duration: 0.0098029
+      duration: 0.0101616
       messages: 
       output: 
       stacktrace: 
@@ -904,7 +904,7 @@ MonoBehaviour:
       name: SendSettingsUpdatedEventOnBackPressed
       fullName: Editor.Tests.HostDelivery.SettingsPresenterShould.SendSettingsUpdatedEventOnBackPressed
       resultStatus: 1
-      duration: 0.0016413
+      duration: 0.0018415
       messages: 
       output: 
       stacktrace: 
@@ -921,7 +921,7 @@ MonoBehaviour:
       name: UpdateApplicationLanguageOnLanguageSelectorUpdated
       fullName: Editor.Tests.HostDelivery.SettingsPresenterShould.UpdateApplicationLanguageOnLanguageSelectorUpdated
       resultStatus: 1
-      duration: 0.0015443
+      duration: 0.0015583
       messages: 
       output: 
       stacktrace: 
@@ -938,7 +938,7 @@ MonoBehaviour:
       name: UpdateMusicVolumeOnMusicVolumeSliderUpdated
       fullName: Editor.Tests.HostDelivery.SettingsPresenterShould.UpdateMusicVolumeOnMusicVolumeSliderUpdated
       resultStatus: 1
-      duration: 0.0011591
+      duration: 0.0011807
       messages: 
       output: 
       stacktrace: 
@@ -955,7 +955,7 @@ MonoBehaviour:
       name: UpdateSaveSlotOnSaveSlotSelectorUpdated
       fullName: Editor.Tests.HostDelivery.SettingsPresenterShould.UpdateSaveSlotOnSaveSlotSelectorUpdated
       resultStatus: 1
-      duration: 0.0011386
+      duration: 0.0011648
       messages: 
       output: 
       stacktrace: 
@@ -972,7 +972,7 @@ MonoBehaviour:
       name: UpdateSettingsViewTextsOnLanguageChangedEvent
       fullName: Editor.Tests.HostDelivery.SettingsPresenterShould.UpdateSettingsViewTextsOnLanguageChangedEvent
       resultStatus: 1
-      duration: 0.0014161
+      duration: 0.0013893
       messages: 
       output: 
       stacktrace: 
@@ -989,7 +989,7 @@ MonoBehaviour:
       name: UpdateSoundVolumeOnSoundVolumeSliderUpdated
       fullName: Editor.Tests.HostDelivery.SettingsPresenterShould.UpdateSoundVolumeOnSoundVolumeSliderUpdated
       resultStatus: 1
-      duration: 0.0010981
+      duration: 0.0011257
       messages: 
       output: 
       stacktrace: 
@@ -1006,7 +1006,7 @@ MonoBehaviour:
       name: HostServices
       fullName: Editor.Tests.HostServices
       resultStatus: 1
-      duration: 0.2066287
+      duration: 0.3546573
       messages: 
       output: 
       stacktrace: 
@@ -1022,7 +1022,7 @@ MonoBehaviour:
       name: AudioServiceShould
       fullName: Editor.Tests.HostServices.AudioServiceShould
       resultStatus: 1
-      duration: 0.009988
+      duration: 0.0129034
       messages: 
       output: 
       stacktrace: 
@@ -1038,7 +1038,7 @@ MonoBehaviour:
       name: GetCurrentAudioSettingsWhenInitialized
       fullName: Editor.Tests.HostServices.AudioServiceShould.GetCurrentAudioSettingsWhenInitialized
       resultStatus: 1
-      duration: 0.0053492
+      duration: 0.0082227
       messages: 
       output: 
       stacktrace: 
@@ -1055,7 +1055,7 @@ MonoBehaviour:
       name: SendEventAfterUpdatingMusicVolume
       fullName: Editor.Tests.HostServices.AudioServiceShould.SendEventAfterUpdatingMusicVolume
       resultStatus: 1
-      duration: 0.0003508
+      duration: 0.0003627
       messages: 
       output: 
       stacktrace: 
@@ -1072,7 +1072,7 @@ MonoBehaviour:
       name: SendEventAfterUpdatingSoundVolume
       fullName: Editor.Tests.HostServices.AudioServiceShould.SendEventAfterUpdatingSoundVolume
       resultStatus: 1
-      duration: 0.0002121
+      duration: 0.000213
       messages: 
       output: 
       stacktrace: 
@@ -1089,7 +1089,7 @@ MonoBehaviour:
       name: NavigationServiceShould
       fullName: Editor.Tests.HostServices.NavigationServiceShould
       resultStatus: 1
-      duration: 0.0294915
+      duration: 0.011788
       messages: 
       output: 
       stacktrace: 
@@ -1105,7 +1105,7 @@ MonoBehaviour:
       name: AddScreenToTheStackWhenANewViewOpens
       fullName: Editor.Tests.HostServices.NavigationServiceShould.AddScreenToTheStackWhenANewViewOpens
       resultStatus: 1
-      duration: 0.0036077
+      duration: 0.0034939
       messages: 
       output: 
       stacktrace: 
@@ -1122,7 +1122,7 @@ MonoBehaviour:
       name: DisableInputForPreviousScreen
       fullName: Editor.Tests.HostServices.NavigationServiceShould.DisableInputForPreviousScreen
       resultStatus: 1
-      duration: 0.0037873
+      duration: 0.0004316
       messages: 
       output: 
       stacktrace: 
@@ -1139,7 +1139,7 @@ MonoBehaviour:
       name: EnableInputForNewScreen
       fullName: Editor.Tests.HostServices.NavigationServiceShould.EnableInputForNewScreen
       resultStatus: 1
-      duration: 0.0002775
+      duration: 0.0002203
       messages: 
       output: 
       stacktrace: 
@@ -1156,7 +1156,7 @@ MonoBehaviour:
       name: EnableInputForPreviousScreenAfterClosingTheNewOne
       fullName: Editor.Tests.HostServices.NavigationServiceShould.EnableInputForPreviousScreenAfterClosingTheNewOne
       resultStatus: 1
-      duration: 0.0004397
+      duration: 0.0003669
       messages: 
       output: 
       stacktrace: 
@@ -1173,7 +1173,7 @@ MonoBehaviour:
       name: ReturnNullIfNoScreenWasEverOpened
       fullName: Editor.Tests.HostServices.NavigationServiceShould.ReturnNullIfNoScreenWasEverOpened
       resultStatus: 1
-      duration: 0.0002886
+      duration: 0.0002492
       messages: 
       output: 
       stacktrace: 
@@ -1190,7 +1190,7 @@ MonoBehaviour:
       name: SendEventAfterExitingGameplayScene
       fullName: Editor.Tests.HostServices.NavigationServiceShould.SendEventAfterExitingGameplayScene
       resultStatus: 1
-      duration: 0.0016863
+      duration: 0.0017065
       messages: 
       output: 
       stacktrace: 
@@ -1207,7 +1207,7 @@ MonoBehaviour:
       name: SendEventAfterLoadingGameplayScene
       fullName: Editor.Tests.HostServices.NavigationServiceShould.SendEventAfterLoadingGameplayScene
       resultStatus: 1
-      duration: 0.0007541
+      duration: 0.0006287
       messages: 
       output: 
       stacktrace: 
@@ -1224,7 +1224,7 @@ MonoBehaviour:
       name: SendEventAfterLoadingMenuScene
       fullName: Editor.Tests.HostServices.NavigationServiceShould.SendEventAfterLoadingMenuScene
       resultStatus: 1
-      duration: 0.0009274
+      duration: 0.0005867
       messages: 
       output: 
       stacktrace: 
@@ -1241,7 +1241,7 @@ MonoBehaviour:
       name: SaveLoadServiceShould
       fullName: Editor.Tests.HostServices.SaveLoadServiceShould
       resultStatus: 1
-      duration: 0.0252902
+      duration: 0.049608
       messages: 
       output: 
       stacktrace: 
@@ -1257,7 +1257,7 @@ MonoBehaviour:
       name: ChangeAutosaveFrequency
       fullName: Editor.Tests.HostServices.SaveLoadServiceShould.ChangeAutosaveFrequency
       resultStatus: 1
-      duration: 0.0064682
+      duration: 0.0051243
       messages: 
       output: 
       stacktrace: 
@@ -1274,7 +1274,7 @@ MonoBehaviour:
       name: GetAGivenSlotData
       fullName: Editor.Tests.HostServices.SaveLoadServiceShould.GetAGivenSlotData
       resultStatus: 1
-      duration: 0.0020205
+      duration: 0.0017262
       messages: 
       output: 
       stacktrace: 
@@ -1291,7 +1291,7 @@ MonoBehaviour:
       name: GetTheCurrentSlotData
       fullName: Editor.Tests.HostServices.SaveLoadServiceShould.GetTheCurrentSlotData
       resultStatus: 1
-      duration: 0.0015051
+      duration: 0.0007204
       messages: 
       output: 
       stacktrace: 
@@ -1308,7 +1308,7 @@ MonoBehaviour:
       name: ReturnIfSaveSlotIsUsed
       fullName: Editor.Tests.HostServices.SaveLoadServiceShould.ReturnIfSaveSlotIsUsed
       resultStatus: 1
-      duration: 0.0015073
+      duration: 0.0007235
       messages: 
       output: 
       stacktrace: 
@@ -1325,7 +1325,7 @@ MonoBehaviour:
       name: ReturnIfTheCurrentSlotIsNewGame
       fullName: Editor.Tests.HostServices.SaveLoadServiceShould.ReturnIfTheCurrentSlotIsNewGame
       resultStatus: 1
-      duration: 0.0014869
+      duration: 0.0006324
       messages: 
       output: 
       stacktrace: 
@@ -1342,7 +1342,7 @@ MonoBehaviour:
       name: SendEventAfterDeletingGame
       fullName: Editor.Tests.HostServices.SaveLoadServiceShould.SendEventAfterDeletingGame
       resultStatus: 1
-      duration: 0.001977
+      duration: 0.0011955
       messages: 
       output: 
       stacktrace: 
@@ -1359,7 +1359,7 @@ MonoBehaviour:
       name: SendEventAfterSavingGame
       fullName: Editor.Tests.HostServices.SaveLoadServiceShould.SendEventAfterSavingGame
       resultStatus: 1
-      duration: 0.0018819
+      duration: 0.0011805
       messages: 
       output: 
       stacktrace: 
@@ -1376,7 +1376,7 @@ MonoBehaviour:
       name: SetAutoSaveFrequencyAtStartup
       fullName: Editor.Tests.HostServices.SaveLoadServiceShould.SetAutoSaveFrequencyAtStartup
       resultStatus: 1
-      duration: 0.0017306
+      duration: 0.0007596
       messages: 
       output: 
       stacktrace: 
@@ -1393,7 +1393,7 @@ MonoBehaviour:
       name: ServiceProviderShould
       fullName: Editor.Tests.HostServices.ServiceProviderShould
       resultStatus: 1
-      duration: 0.021708
+      duration: 0.050255
       messages: 
       output: 
       stacktrace: 
@@ -1409,7 +1409,7 @@ MonoBehaviour:
       name: InitializeServices
       fullName: Editor.Tests.HostServices.ServiceProviderShould.InitializeServices
       resultStatus: 1
-      duration: 0.0022667
+      duration: 0.010085
       messages: 
       output: 
       stacktrace: 
@@ -1426,7 +1426,7 @@ MonoBehaviour:
       name: NotifyWhenInitializationIsDone
       fullName: Editor.Tests.HostServices.ServiceProviderShould.NotifyWhenInitializationIsDone
       resultStatus: 1
-      duration: 0.0046181
+      duration: 0.0011789
       messages: 
       output: 
       stacktrace: 
@@ -1443,7 +1443,7 @@ MonoBehaviour:
       name: SettingsServiceShould
       fullName: Editor.Tests.HostServices.SettingsServiceShould
       resultStatus: 1
-      duration: 0.0186681
+      duration: 0.0584621
       messages: 
       output: 
       stacktrace: 
@@ -1459,7 +1459,7 @@ MonoBehaviour:
       name: RetrieveSettings
       fullName: Editor.Tests.HostServices.SettingsServiceShould.RetrieveSettings
       resultStatus: 1
-      duration: 0.0077074
+      duration: 0.0037795
       messages: 
       output: 
       stacktrace: 
@@ -1476,7 +1476,7 @@ MonoBehaviour:
       name: UpdateSettingsOnSettingsChangedEvent
       fullName: Editor.Tests.HostServices.SettingsServiceShould.UpdateSettingsOnSettingsChangedEvent
       resultStatus: 1
-      duration: 0.0006223
+      duration: 0.0006039
       messages: 
       output: 
       stacktrace: 
@@ -1493,7 +1493,7 @@ MonoBehaviour:
       name: Translation
       fullName: Editor.Tests.HostServices.Translation
       resultStatus: 1
-      duration: 0.0972694
+      duration: 0.1676723
       messages: 
       output: 
       stacktrace: 
@@ -1509,7 +1509,7 @@ MonoBehaviour:
       name: CsvLoaderShould
       fullName: Editor.Tests.HostServices.Translation.CsvLoaderShould
       resultStatus: 1
-      duration: 0.0334587
+      duration: 0.0336524
       messages: 
       output: 
       stacktrace: 
@@ -1525,7 +1525,7 @@ MonoBehaviour:
       name: ReturnLocalizationKeysForRequiredLanguage
       fullName: Editor.Tests.HostServices.Translation.CsvLoaderShould.ReturnLocalizationKeysForRequiredLanguage
       resultStatus: 1
-      duration: 0.0294363
+      duration: 0.0294645
       messages: 
       output: 
       stacktrace: 
@@ -1541,7 +1541,7 @@ MonoBehaviour:
       name: ReturnLocalizationKeysForRequiredLanguage("en",System.String[])
       fullName: Editor.Tests.HostServices.Translation.CsvLoaderShould.ReturnLocalizationKeysForRequiredLanguage("en",System.String[])
       resultStatus: 1
-      duration: 0.0010075
+      duration: 0.0013147
       messages: 
       output: 
       stacktrace: 
@@ -1559,7 +1559,7 @@ MonoBehaviour:
       fullName: Editor.Tests.HostServices.Translation.CsvLoaderShould.ReturnLocalizationKeysForRequiredLanguage("en",System.String[]
         GeneratedTestCase2)
       resultStatus: 1
-      duration: 0.0005558
+      duration: 0.0006816
       messages: 
       output: 
       stacktrace: 
@@ -1576,7 +1576,7 @@ MonoBehaviour:
       name: TranslatorServiceShould
       fullName: Editor.Tests.HostServices.Translation.TranslatorServiceShould
       resultStatus: 1
-      duration: 0.044335
+      duration: 0.0934347
       messages: 
       output: 
       stacktrace: 
@@ -1592,7 +1592,7 @@ MonoBehaviour:
       name: InitializeWithLanguageFromSettings
       fullName: Editor.Tests.HostServices.Translation.TranslatorServiceShould.InitializeWithLanguageFromSettings
       resultStatus: 1
-      duration: 0.001458
+      duration: 0.0021883
       messages: 
       output: 
       stacktrace: 
@@ -1609,7 +1609,7 @@ MonoBehaviour:
       name: NotFailIfLanguageKeyIndexIsOutOfBounds
       fullName: Editor.Tests.HostServices.Translation.TranslatorServiceShould.NotFailIfLanguageKeyIndexIsOutOfBounds
       resultStatus: 1
-      duration: 0.0003214
+      duration: 0.0004799
       messages: 
       output: 
       stacktrace: 
@@ -1626,7 +1626,7 @@ MonoBehaviour:
       name: NotSendEventIfLanguageIsTheSame
       fullName: Editor.Tests.HostServices.Translation.TranslatorServiceShould.NotSendEventIfLanguageIsTheSame
       resultStatus: 1
-      duration: 0.0010736
+      duration: 0.0014614
       messages: 
       output: 
       stacktrace: 
@@ -1643,7 +1643,7 @@ MonoBehaviour:
       name: ReturnALanguageKeyForAGivenIndex
       fullName: Editor.Tests.HostServices.Translation.TranslatorServiceShould.ReturnALanguageKeyForAGivenIndex
       resultStatus: 1
-      duration: 0.0002353
+      duration: 0.0003382
       messages: 
       output: 
       stacktrace: 
@@ -1660,7 +1660,7 @@ MonoBehaviour:
       name: ReturnTheKeyIfTranslationIsNotAvailable
       fullName: Editor.Tests.HostServices.Translation.TranslatorServiceShould.ReturnTheKeyIfTranslationIsNotAvailable
       resultStatus: 1
-      duration: 0.000858
+      duration: 0.0012359
       messages: 
       output: 
       stacktrace: 
@@ -1677,7 +1677,7 @@ MonoBehaviour:
       name: ReturnTheTranslatedKeyIfAvailable
       fullName: Editor.Tests.HostServices.Translation.TranslatorServiceShould.ReturnTheTranslatedKeyIfAvailable
       resultStatus: 1
-      duration: 0.0127764
+      duration: 0.0262459
       messages: 
       output: 
       stacktrace: 
@@ -1693,7 +1693,7 @@ MonoBehaviour:
       name: ReturnTheTranslatedKeyIfAvailable("tid_accept","Accept")
       fullName: Editor.Tests.HostServices.Translation.TranslatorServiceShould.ReturnTheTranslatedKeyIfAvailable("tid_accept","Accept")
       resultStatus: 1
-      duration: 0.0012112
+      duration: 0.0016625
       messages: 
       output: 
       stacktrace: 
@@ -1710,7 +1710,7 @@ MonoBehaviour:
       name: ReturnTheTranslatedKeyIfAvailable("tid_cancel","Cancel")
       fullName: Editor.Tests.HostServices.Translation.TranslatorServiceShould.ReturnTheTranslatedKeyIfAvailable("tid_cancel","Cancel")
       resultStatus: 1
-      duration: 0.0006775
+      duration: 0.000921
       messages: 
       output: 
       stacktrace: 
@@ -1727,7 +1727,7 @@ MonoBehaviour:
       name: ReturnTheTranslatedKeyIfAvailable("tid_exit_game","Exit")
       fullName: Editor.Tests.HostServices.Translation.TranslatorServiceShould.ReturnTheTranslatedKeyIfAvailable("tid_exit_game","Exit")
       resultStatus: 1
-      duration: 0.0006534
+      duration: 0.0009231
       messages: 
       output: 
       stacktrace: 
@@ -1746,7 +1746,7 @@ MonoBehaviour:
       fullName: Editor.Tests.HostServices.Translation.TranslatorServiceShould.ReturnTheTranslatedKeyIfAvailable("tid_press_start","Press
         Start")
       resultStatus: 1
-      duration: 0.0006578
+      duration: 0.0009842
       messages: 
       output: 
       stacktrace: 
@@ -1765,7 +1765,7 @@ MonoBehaviour:
       fullName: Editor.Tests.HostServices.Translation.TranslatorServiceShould.ReturnTheTranslatedKeyIfAvailable("tid_sfx_volume","Sound
         Effects Volume")
       resultStatus: 1
-      duration: 0.000671
+      duration: 0.0009528
       messages: 
       output: 
       stacktrace: 
@@ -1782,7 +1782,7 @@ MonoBehaviour:
       name: SendEventOnLanguageChanged
       fullName: Editor.Tests.HostServices.Translation.TranslatorServiceShould.SendEventOnLanguageChanged
       resultStatus: 1
-      duration: 0.0009878
+      duration: 0.0013705
       messages: 
       output: 
       stacktrace: 
@@ -1799,7 +1799,7 @@ MonoBehaviour:
       name: TranslateAllTextsInAGivenArray
       fullName: Editor.Tests.HostServices.Translation.TranslatorServiceShould.TranslateAllTextsInAGivenArray
       resultStatus: 1
-      duration: 0.0009391
+      duration: 0.0014948
       messages: 
       output: 
       stacktrace: 
@@ -1811,12 +1811,12 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1033
       parentUniqueId: Assembly-CSharp-Editor.dll/Editor/Tests/HostServices/Translation/[Assembly-CSharp-Editor][Editor.Tests.HostServices.Translation.TranslatorServiceShould][suite]
-    m_ResultText: 
+    m_ResultText: PlayIntroSongOnInitializationCompleted (0.001s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
+      m_SelectedIDs: 76ad3459
+      m_LastClickedID: 1496624502
       m_ExpandedIDs: 1fe1dc833fe2a987b7d6f7abdef040c311cb86d4c05062e6bd32cbee99d317ff3b4273ff2e5c021b5bce621e39a3be208cf0ac216ddafb243e7ca5364ab0373b2f7c5f41e7479b44cc73486076157171e9977c7cffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -1859,7 +1859,7 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
@@ -1884,22 +1884,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Resources/Music/Intro
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Resources/Music/Intro
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/kevin/Development/projects/Clipper
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 2e710000
-    m_LastClickedID: 28974
-    m_ExpandedIDs: 000000002e71000030710000327100003471000000ca9a3b
+    scrollPos: {x: 0, y: 30}
+    m_SelectedIDs: f2720000
+    m_LastClickedID: 29426
+    m_ExpandedIDs: 000000002e710000307100003271000034710000ea72000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2040,7 +2040,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
@@ -2055,9 +2055,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 38710000
+      m_SelectedIDs: ca720000
       m_LastClickedID: 0
-      m_ExpandedIDs: 2efbffff
+      m_ExpandedIDs: faf6ffff2efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2097,7 +2097,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
@@ -2424,7 +2424,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
@@ -2457,10 +2457,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -156.5
-    m_HBaseRangeMax: 156.5
-    m_VBaseRangeMin: -88
-    m_VBaseRangeMax: 88
+    m_HBaseRangeMin: -331.5
+    m_HBaseRangeMax: 331.5
+    m_VBaseRangeMin: -186.5
+    m_VBaseRangeMax: 186.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -2477,24 +2477,24 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 21
+      y: 0
       width: 691
-      height: 352
-    m_Scale: {x: 2, y: 2}
-    m_Translation: {x: 345.5, y: 176}
+      height: 373
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 345.5, y: 186.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -172.75
-      y: -88
-      width: 345.5
-      height: 176
+      x: -345.5
+      y: -186.5
+      width: 691
+      height: 373
     m_MinimalGUI: 1
-  m_defaultScale: 2
-  m_LastWindowPixelSize: {x: 1382, y: 746}
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 691, y: 373}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -2516,7 +2516,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
